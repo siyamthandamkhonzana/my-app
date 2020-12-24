@@ -1,44 +1,71 @@
 body {
-  margin: 0;
-  padding: 0;
-  /* font-family: sans-serif; */
-}
-/* main {
-  
-} */
-@font-face {
-  src: url(../public/housttely-signature-font/LovelyCoffee-jEVeO.ttf);
-  font-family: head;
-}
-@font-face {
-  src: url(../public/housttely-signature-font/BadScript-Regular.ttf);
-  font-family: slogan;
-}
+    margin: 0px;
+    padding: 0;
+    /* font-family: sans-serif; */
+  }
+ 
+  @font-face {
+    src: url(../public/housttely-signature-font/LovelyCoffee-jEVeO.ttf);
+    font-family: head;
+  }
+  @font-face {
+    src: url(../public/housttely-signature-font/BadScript-Regular.ttf);
+    font-family: slogan;
+  }
 
-.app {
-  background-image: url('../public/depositphotos_13677711-stock-illustration-loving-hands-on-paper-background.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+.charity {
+    background-image: url('../public/back3.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
+.btnDiv {
+    /* margin: 10px; */
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 12px;
+    font-size: 16px; */
 
-.header {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-size: 95px;
-  font-family: head;
-  /* font-weight: bold; */
 }
 
-.slogan {
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.btn {
+    padding: 5px 40px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(248, 174, 35);
+    font-family: slogan;
+    /* font-weight: 600; */
 
-  font-family: slogan;
-  font-size: 18px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.search-label {
+    /* position: relative; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.charity input {
+	/* width: 100%; */
+	padding: 16px;
+	font-size: 15px;
+	font-style: italic;
+	color: #444;
+	box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 183, 83);
+}
+.search-icon {
+	position: absolute;
+	/* top: -10px; */
+	font-size: 15px;
+	color: #555;
+	right: 18px;
 }

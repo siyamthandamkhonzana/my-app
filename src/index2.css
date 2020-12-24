@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+}
+/* main {
+  
+} */
+@font-face {
+  src: url(../public/housttely-signature-font/LovelyCoffee-jEVeO.ttf);
+  font-family: head;
+}
+@font-face {
+  src: url(../public/housttely-signature-font/BadScript-Regular.ttf);
+  font-family: slogan;
+}
+
+.app {
+  background-image: url('../public/depositphotos_13677711-stock-illustration-loving-hands-on-paper-background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 95px;
+  font-family: head;
+  /* font-weight: bold; */
+}
+
+.slogan {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: slogan;
+  font-size: 18px;
+}
