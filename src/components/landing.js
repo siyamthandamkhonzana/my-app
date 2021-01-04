@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import CharityList from './charityList';
 import {Link } from "react-router-dom";
+import ReactImageAppear from 'react-image-appear';
+//npm install react-image-appear --save
 
 const people = [
     {
@@ -25,6 +27,15 @@ const people = [
     }
   ];
 
+  const LoadingImage = ()=> {
+  return <ReactImageAppear 
+    src="../public/hands-on-paper-background.jpg"
+    animation="bounceIn"
+    showLoader={false}
+    animationDuration="5s"
+/>
+}
+
 export class Landing extends Component {
     state={
         value:'',
@@ -38,6 +49,7 @@ export class Landing extends Component {
 
       return (
       <div className="charity">
+        <LoadingImage />
         <div className="btnDiv">
             <Link to="/Charities">
                 <button className="btn" variant="warning">All Charities</button>
